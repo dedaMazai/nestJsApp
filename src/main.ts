@@ -8,7 +8,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-  .setTitle('Урок по продвинотому BACKEND')
+  .setTitle('BACKEND')
   .setDescription('Документация REST API')
   .setVersion('1.0.0')
   .addTag('Tag')
